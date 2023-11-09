@@ -1,0 +1,25 @@
+{
+    "name": "galaxy-it/helpers",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GalaxyIt\\Helpers\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@galaxy-it.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "laravel/framework": ">=8.0",
+        "laravel/helpers": ">=1.4"
+    }
+}

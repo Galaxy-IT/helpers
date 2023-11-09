@@ -2,6 +2,7 @@
     "name": "galaxy-it/helpers",
     "type": "library",
     "license": "MIT",
+    "description": "Helpers",
     "autoload": {
         "psr-4": {
             "GalaxyIt\\Helpers\\": "src/"
@@ -16,7 +17,7 @@
             "email": "developer@galaxy-it.net"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=7.4",
         "laravel/framework": ">=8.0",
